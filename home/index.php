@@ -192,7 +192,7 @@ For the improvement of our environmental presentation we set ourselves goals and
         items:1
     },
     600:{
-        items:1
+        items:3
     },
     1000:{
         items:6

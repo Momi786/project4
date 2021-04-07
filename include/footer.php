@@ -25,7 +25,29 @@
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
+<script>
+  
+  
+            // sideBar Select
+            $(function () {
+                setNavigation();
+            });
+            function setNavigation() {
+                var path = window.location.href;
+                    var de = $(".accordion-menu li.active");
+                    $(de).attr('class','');
 
+                $(".accordion-menu a").each(function () {
+                    var href1 = $(this).attr('href');
+                    var href2 = href1.replaceAll('/','');
+                    var href = href2.replaceAll('.','');
+                  if(path.indexOf(href) != -1){
+                        var ul = $(this).parent();
+                            $(ul).addClass('active');
+                  }
+                });
+            }
+</script>
 </body>
 
 </html>

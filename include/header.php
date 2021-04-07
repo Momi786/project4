@@ -57,13 +57,15 @@
       <h1 class="logo mr-auto"><a href="index.html">Project 4<span>.</span></a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Working Benchmarks</a></li>
-          <li><a href="#team">Features</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+        <ul class="accordion-menu">
+          <li class="active"><a href="../home">Home</a></li>
+          <li><a href="../about">About Us</a></li>
+          <li><a href="../services">Services</a></li>
+          <li><a href="../working-benchmak">Working Benchmarks</a></li>
+          <li><a href="../feature">Features</a></li>
+          <li><a href="../contact-us/">Contact Us</a></li>
+          <li><a href="../submitt-case/">Submitt Case</a></li>
+          <li><a href="../tack-case/">Track Case</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
